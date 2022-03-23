@@ -160,6 +160,12 @@ transition: 0.3s;
     color: white;   
     transition: 0.3s;
 }
+.header-right{
+    background-image: url("./Circle.png"),url("./Bullet\ Points.png");
+    background-repeat: no-repeat;
+    background-size: 450px,250px;
+    background-position: left 1% top 50%;
+}
 .header-left-link:hover{
     font-size: 16px;
     font-style: normal;
@@ -297,6 +303,7 @@ border-radius: 10px;
 background: rgba(238, 191, 99, 1);
 border-color: #EEBF63;
 border: 2px solid #EEBF63;
+transition: 0.3s;
 }
 .project-link{
 font-size: 16px;
@@ -306,4 +313,321 @@ line-height: 24px;
 letter-spacing: 0px;
 text-align: center;
 color: white;
+transition: 0.3s;
 }
+.project-btn:hover{
+    height: 55px;
+width: 151px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+background: rgb(255, 255, 255);
+border-color: #EEBF63;
+border: 2px solid #EEBF63;
+transition: 0.3s;
+}
+.project-link:hover{
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+color: #EEBF63;
+transition: 0.3s;
+}
+.project-right-img{
+    height: 756px;
+width: 540px;
+left: 165px;
+top: 1652px;
+border-radius: 25px;
+}
+.project-bottom-list{
+    display: flex;
+}
+.project{
+    background-color:#F1F1F1 ;
+}
+.project-bottom-item{
+    padding: 20px;
+}
+.project-right-bottom-list{
+    display: flex;
+}
+.project-right-bottom-item{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.bottom-img{
+    height: 14.002152442932129px;
+width: 20px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+.bottom-text{
+    padding: 5px;
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+}
+.project-right-title{
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+}
+.project-right-item{
+    padding: 10px 0px;
+}
+.inreason-img{
+    height: 313px;
+width: 239.75px;
+left: 165px;
+top: 2710px;
+border-radius: 45px;
+background-color: #9DBBC3;
+}
+.reason-list{
+    width: 1140px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.reason .container{
+    position: relative;
+}
+
+.reason-inlist{
+    padding: 20px;
+ width: 270px;  
+}
+.reason-title{
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: center;
+color: black;
+}
+.reason{
+    height: 1100px;
+    background-color:#F1F1F1;   
+}
+.reason-center{
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    height: 313px;
+    width: 1110px;
+    border-radius: 25px;
+    
+background: rgba(238, 191, 99, 1);
+}
+.reason-center-list{
+    height:300px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reason-center-title{
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+height: 190px;
+width: 265px;
+left: 250px;
+top: 3346px;
+border-radius: nullpx;
+}
+.reason-center-input{
+    height: 70px;
+width: 212.191162109375px;
+left: 655.4418334960938px;
+top: 3405px;
+border: none;
+border-radius: 10px;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: center;
+color: black;
+outline: none;
+}
+.reason-center-btn{
+    height: 70px;
+    width: 273.24615478515625px;
+    left: 917.6329956054688px;
+    top: 3405px;
+    border-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(238, 191, 99, 1);    
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: center;
+color: white;
+}
+.reason-bottom-img{
+    position: absolute;
+    left: 6%;
+    top: 190%;
+}
+.testimonial-list{
+    padding:30px 0px;
+    display: flex;
+}
+.testiomonial-left-box{
+    background-image: url("./Gold\ Stars.png"),url("./star.png");
+    background-repeat: no-repeat;
+    background-position: top 81% left 76%,top 81% left 82%;
+    display: flex;
+    justify-content: center;
+   
+    height: 351px;
+width: 529px;
+left: 165px;
+top: 4085px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+border-top-left-radius: 25px;
+border-radius: [object Object]px;
+background-color: white;
+}
+.testiomonial-right-box{
+    background-image: url("./Gold\ Stars\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: top 81% left 76%;
+    display: flex;
+    justify-content: center;
+   
+    height: 351px;
+width: 529px;
+left: 165px;
+top: 4085px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+border-top-left-radius: 25px;
+border-radius: [object Object]px;
+background-color: white;
+}
+.testimonial{
+    background-color:rgba(111, 194, 197, 1)  ;
+}
+.testimonial-item{
+    padding: 20px;
+}
+.intestimonial-text{
+    height: 155px;
+width: 419px;
+left: 220px;
+top: 4137px;
+border-radius: nullpx;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+color: black;
+}
+.intestimonial-inlist{
+    display: flex;
+}
+.intestimonial-initem{
+    padding: 10px;
+}
+.intestimonial-list{
+    padding: 30px;
+}
+.intestimonial-item{
+    padding: 20px;
+}
+.testimonial-head-title{
+    display: flex;
+    justify-content: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: center;
+height: 120px;
+width: 609px;
+left: 415px;
+top: 3913px;
+border-radius: nullpx;
+color: white;
+}
+.title-box{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer-list{
+    height: 120px;
+    padding:0px 30px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-item:nth-child(3){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-img{
+    padding: 10px;
+}
+.footer-left-link-img{
+    padding: 10px;
+}
+.footer-left-title{
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+}
+.footer-link{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+}
+.footer{
+    height: 150px;
+    background-color: #F1F1F1;
+}
+
