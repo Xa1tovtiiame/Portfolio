@@ -248,7 +248,13 @@ text-align: left;
       } 
      
 
+.header-left-title{
+width: 530px;
+}
 
+.vapwe-title{
+    font-size: 45px;
+}
     
 
 
@@ -331,6 +337,12 @@ text-align: left;
         .section-right-bottom-text{
             font-size: 13px;
         }
+        .vapwe-title{
+            font-size: 40px;
+        }
+        .container .vapwe-text{
+            text-align: center;
+        }
     }
     @media(max-width:820px){
         .container{
@@ -339,6 +351,19 @@ text-align: left;
         .header-list{
             flex-direction: column-reverse;
             justify-content: center;
+            
+        }
+        .header-left-list{
+            text-align: center;
+        }
+        .header-left-title{
+            text-align: center;
+        }
+        .header-left-text{
+            text-align: center;
+        }
+
+        .container .vapwe-text{
             text-align: center;
         }
     }
